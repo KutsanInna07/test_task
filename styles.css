@@ -1,0 +1,128 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+}
+
+header {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  border-radius: 7px;
+  position: fixed;
+  top: 10px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.menu button {
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.enter {
+  background-color: rgb(61, 61, 252) !important;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px 10px;
+  margin-left: 5px;
+}
+
+.main-search {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.google-logo {
+  width: 350px;
+  padding: 10px;
+}
+
+.search-input {
+  width: 100px;
+  height: 100%;
+  background-color: rgba(110, 75, 75, 0.043);
+  background-image: url("img/microphone.png");
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: calc(100% - 15px) center;
+  padding: 20px 450px 20px 20px;
+  border-radius: 28px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.main-search .search-input:focus {
+  border-color: gray;
+  outline: none;
+}
+
+.button-search {
+  padding: 40px;
+}
+
+.google_search,
+.lucky {
+  padding: 10px 40px;
+  color: black;
+  border: none;
+  background-color: rgba(110, 75, 75, 0.043);
+}
+
+.language {
+  color: black;
+  background-color: white;
+  border: none;
+}
+
+.language a {
+  text-decoration: none;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(110, 75, 75, 0.043);
+  padding: 10px;
+}
+
+footer p {
+  border-bottom: 1px solid #ccc;
+  padding: 0px 10px 20px 10px;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline;
+  padding: 10px;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.apps_icon,
+.account {
+  width: 20px;
+  height: 20px;
+}
